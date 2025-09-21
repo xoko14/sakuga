@@ -1,0 +1,3 @@
+﻿# Sakuga
+
+Console animation helper
