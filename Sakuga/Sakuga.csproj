@@ -4,6 +4,13 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Title>Sakuga</Title>
+        <Authors>xoko14</Authors>
+        <PackageProjectUrl>https://github.com/xoko14/Sakuga/</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/xoko14/Sakuga/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/xoko14/Sakuga/</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
