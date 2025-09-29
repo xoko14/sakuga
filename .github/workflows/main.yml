@@ -37,7 +37,7 @@ jobs:
     - name: Build and Pack NuGet package
       run: dotnet build Sakuga/Sakuga.csproj -p:Version='${{ steps.gitversion.outputs.SemVer }}' -c Release
     - name: Upload NuGet package to GitHub
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v3
       with:
         name: nugetPackage
         path: Sakuga/bin/Release/ 
@@ -50,7 +50,7 @@ jobs:
     steps:  
     #Push NuGet package to GitHub packages
     - name: Download nuget package artifact
-      uses: actions/download-artifact@v4.0.0
+      uses: actions/download-artifact@v3.0.0
       with:
         name: nugetPackage
     - name: Push package to NuGet packages 
