@@ -10,11 +10,17 @@
         <PackageProjectUrl>https://github.com/xoko14/Sakuga/</PackageProjectUrl>
         <PackageLicenseUrl>https://raw.githubusercontent.com/xoko14/Sakuga/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/xoko14/Sakuga/</RepositoryUrl>
-        <PackageReadmeFile>../README.md</PackageReadmeFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Pastel" Version="7.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+        <None Include="..\README.md">
+          <Pack>True</Pack>
+          <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
 </Project>
