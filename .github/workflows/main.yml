@@ -40,7 +40,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: nugetPackage
-        path: MagpiEnums/bin/Release/ 
+        path: Sakuga/bin/Release/ 
         
   release:
     runs-on: ubuntu-latest    
